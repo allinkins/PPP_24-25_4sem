@@ -1,120 +1,96 @@
 import socket
-import json
 import threading
-from process_manager import ProcessManager
-from logger import get_logger
+import json
+from utils.process_utils import ProcessUtils
+from utils.config import Config
+from utils.logger import setup_logger
 
-logger = get_logger("server")
+logger = setup_logger("Server")
 
-class ProcessServer:
-    def __init__(self, host="0.0.0.0", port=9000):
-        
-        self.host = host
-        self.port = port
-        self.process_manager = ProcessManager()
-        self.server_socket = None
+class ClientHandler(threading.Thread):
+    """
+    Класс-обработчик для каждого клиента. Запускается в отдельном потоке.
+    """
+    def __init__(self, conn, addr):
+        super().__init__(daemon=True)
+        self.conn = conn
+        self.addr = addr
+        logger.info(f"Клиент {addr} подключился")
+
+    def run(self):
+        try:
+            while True:
+                data = self.conn.recv(1024).decode()
+                if not data:
+                    logger.info(f"Клиент {self.addr} отключился")
+                    break
+
+                logger.info(f"Получена команда от {self.addr}: {data}")
+                command_parts = data.strip().split()
+
+                if command_parts[0] == "UPDATE":
+                    self.handle_update()
+                elif command_parts[0] == "SIGNAL" and len(command_parts) == 3:
+                    self.handle_signal(int(command_parts[1]), command_parts[2])
+                else:
+                    self.conn.sendall("Неверная команда\n".encode())
+
+        except Exception as e:
+            logger.error(f"Ошибка клиента {self.addr}: {e}")
+        finally:
+            self.conn.close()
+
+    def handle_update(self, format_type="JSON"):
+        data = ProcessUtils.collect_process_info()
+
+        # Сохраняем оба формата
+        json_file = "server_output.json"
+        xml_file = "server_output.xml"
+        ProcessUtils.save_info_to_file(data, json_file, "json")
+        ProcessUtils.save_info_to_file(data, xml_file, "xml")
+
+        # Отправляем оба файла клиенту
+        for file_path in [json_file, xml_file]:
+            try:
+                with open(file_path, "rb") as f:
+                    file_data = f.read()
+                    self.conn.sendall(len(file_data).to_bytes(4, 'big'))
+                    self.conn.sendall(file_data)
+                    logger.info(f"Отправлен файл: {file_path}")
+            except Exception as e:
+                logger.error(f"Ошибка отправки файла {file_path}: {e}")
+
+    def handle_signal(self, pid: int, signal_name: str):
+        """
+        Отправка сигнала процессу.
+        """
+        result = ProcessUtils.send_signal(pid, signal_name)
+        self.conn.sendall(result.encode())
+        logger.info(f"{result} -> {self.addr}")
+
+
+class Server:
+    """
+    Главный серверный класс.
+    """
+    def __init__(self):
+        self.host = Config.HOST
+        self.port = Config.PORT
+        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.sock.bind((self.host, self.port))
+        self.sock.listen()
+        logger.info(f"Сервер запущен на {self.host}:{self.port}")
 
     def start(self):
-      
-        try:
-            self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-            self.server_socket.bind((self.host, self.port))
-            self.server_socket.listen(5)
-            
-            logger.info(f"Server started on {self.host}:{self.port}")
-            
-            while True:
-                client_socket, address = self.server_socket.accept()
-                logger.info(f"New connection from {address}")
-                
-                client_thread = threading.Thread(
-                    target=self.handle_client,
-                    args=(client_socket, address)
-                )
-                client_thread.start()
-                
-        except Exception as e:
-            logger.error(f"Server error: {str(e)}")
-            self.stop()
-            raise
-
-    def stop(self):
-        
-        if self.server_socket:
-            self.server_socket.close()
-            logger.info("Server stopped")
-
-    def handle_client(self, client_socket, address):
-       
+        """
+        Запускаем основной цикл ожидания клиентов.
+        """
         try:
             while True:
-                
-                data = client_socket.recv(1024).decode()
-                if not data:
-                    break
-                
-                logger.info(f"Received command from {address}: {data}")
-                              
-                command_parts = data.strip().split()
-                command = command_parts[0].lower()
-                
-                response = None
-                
-                if command == "update":
-                   
-                    format_type = command_parts[1] if len(command_parts) > 1 else "json"
-                    filename = self.process_manager.save_process_info(format_type)
-                    
-                    
-                    with open(filename, 'rb') as f:
-                        file_content = f.read()                   
-                  
-                    size_info = str(len(file_content)).encode()
-                    client_socket.send(size_info)
-                                      
-                    client_socket.recv(1024)                    
-                   
-                    client_socket.send(file_content)
-                    logger.info(f"Sent updated process information to {address}")
-                    
-                elif command == "signal":
-                   
-                    if len(command_parts) != 3:
-                        response = "Error: Invalid signal command format. Use: signal <pid> <signal_name>"
-                    else:
-                        try:
-                            pid = command_parts[1]
-                            signal_name = command_parts[2].upper()
-                            response = self.process_manager.send_signal_to_process(pid, signal_name)
-                        except Exception as e:
-                            response = f"Error: {str(e)}"
-                    
-                   
-                    client_socket.send(response.encode())
-                    
-                else:
-                    response = f"Error: Unknown command '{command}'"
-                    client_socket.send(response.encode())
-                
-        except Exception as e:
-            logger.error(f"Error handling client {address}: {str(e)}")
+                conn, addr = self.sock.accept()
+                handler = ClientHandler(conn, addr)
+                handler.start()
+        except KeyboardInterrupt:
+            logger.info("Сервер остановлен вручную")
         finally:
-            client_socket.close()
-            logger.info(f"Connection closed with {address}")
-
-def main():
-   
-    server = ProcessServer()
-    try:
-        logger.info("Starting process information server...")
-        server.start()
-    except KeyboardInterrupt:
-        logger.info("Server shutdown requested")
-        server.stop()
-    except Exception as e:
-        logger.error(f"Unexpected error: {str(e)}")
-        server.stop()
-
-if __name__ == "__main__":
-    main()
+            self.sock.close()
