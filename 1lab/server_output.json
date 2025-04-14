@@ -1,0 +1,2756 @@
+[
+    {
+        "name": "kernel_task",
+        "username": "root",
+        "pid": 0,
+        "status": "running"
+    },
+    {
+        "name": "launchd",
+        "username": "root",
+        "pid": 1,
+        "status": "running"
+    },
+    {
+        "name": "syslogd",
+        "username": "root",
+        "pid": 71,
+        "status": "running"
+    },
+    {
+        "name": "UserEventAgent",
+        "username": "root",
+        "pid": 72,
+        "status": "running"
+    },
+    {
+        "name": "uninstalld",
+        "username": "root",
+        "pid": 75,
+        "status": "running"
+    },
+    {
+        "name": "fseventsd",
+        "username": "root",
+        "pid": 76,
+        "status": "running"
+    },
+    {
+        "name": "mediaremoted",
+        "username": "root",
+        "pid": 77,
+        "status": "running"
+    },
+    {
+        "name": "systemstats",
+        "username": "root",
+        "pid": 81,
+        "status": "running"
+    },
+    {
+        "name": "configd",
+        "username": "root",
+        "pid": 83,
+        "status": "running"
+    },
+    {
+        "name": "endpointsecurity",
+        "username": "root",
+        "pid": 84,
+        "status": "running"
+    },
+    {
+        "name": "powerd",
+        "username": "root",
+        "pid": 85,
+        "status": "running"
+    },
+    {
+        "name": "remoted",
+        "username": "root",
+        "pid": 88,
+        "status": "running"
+    },
+    {
+        "name": "logd",
+        "username": "root",
+        "pid": 90,
+        "status": "running"
+    },
+    {
+        "name": "keybagd",
+        "username": "root",
+        "pid": 91,
+        "status": "running"
+    },
+    {
+        "name": "softwareupdated",
+        "username": "_softwareupdate",
+        "pid": 94,
+        "status": "running"
+    },
+    {
+        "name": "watchdogd",
+        "username": "root",
+        "pid": 96,
+        "status": "running"
+    },
+    {
+        "name": "mds",
+        "username": "root",
+        "pid": 100,
+        "status": "running"
+    },
+    {
+        "name": "iconservicesd",
+        "username": "_iconservices",
+        "pid": 101,
+        "status": "running"
+    },
+    {
+        "name": "kernelmanagerd",
+        "username": "root",
+        "pid": 102,
+        "status": "running"
+    },
+    {
+        "name": "diskarbitrationd",
+        "username": "root",
+        "pid": 103,
+        "status": "running"
+    },
+    {
+        "name": "coreduetd",
+        "username": "root",
+        "pid": 106,
+        "status": "running"
+    },
+    {
+        "name": "thermalmonitord",
+        "username": "root",
+        "pid": 109,
+        "status": "running"
+    },
+    {
+        "name": "contextstored",
+        "username": "root",
+        "pid": 110,
+        "status": "running"
+    },
+    {
+        "name": "opendirectoryd",
+        "username": "root",
+        "pid": 111,
+        "status": "running"
+    },
+    {
+        "name": "apsd",
+        "username": "root",
+        "pid": 112,
+        "status": "running"
+    },
+    {
+        "name": "launchservicesd",
+        "username": "root",
+        "pid": 113,
+        "status": "running"
+    },
+    {
+        "name": "timed",
+        "username": "_timed",
+        "pid": 114,
+        "status": "running"
+    },
+    {
+        "name": "usbmuxd",
+        "username": "_usbmuxd",
+        "pid": 115,
+        "status": "running"
+    },
+    {
+        "name": "securityd",
+        "username": "root",
+        "pid": 116,
+        "status": "running"
+    },
+    {
+        "name": "auditd",
+        "username": "root",
+        "pid": 117,
+        "status": "running"
+    },
+    {
+        "name": "autofsd",
+        "username": "root",
+        "pid": 121,
+        "status": "running"
+    },
+    {
+        "name": "displaypolicyd",
+        "username": "_displaypolicyd",
+        "pid": 122,
+        "status": "running"
+    },
+    {
+        "name": "dasd",
+        "username": "root",
+        "pid": 123,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 125,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_distnote",
+        "pid": 126,
+        "status": "running"
+    },
+    {
+        "name": "AppleCredentialM",
+        "username": "root",
+        "pid": 127,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 130,
+        "status": "running"
+    },
+    {
+        "name": "logind",
+        "username": "root",
+        "pid": 131,
+        "status": "running"
+    },
+    {
+        "name": "revisiond",
+        "username": "root",
+        "pid": 132,
+        "status": "running"
+    },
+    {
+        "name": "KernelEventAgent",
+        "username": "root",
+        "pid": 133,
+        "status": "running"
+    },
+    {
+        "name": "bluetoothd",
+        "username": "root",
+        "pid": 135,
+        "status": "running"
+    },
+    {
+        "name": "notifyd",
+        "username": "root",
+        "pid": 136,
+        "status": "running"
+    },
+    {
+        "name": "corebrightnessd",
+        "username": "root",
+        "pid": 138,
+        "status": "running"
+    },
+    {
+        "name": "AirPlayXPCHelper",
+        "username": "root",
+        "pid": 139,
+        "status": "running"
+    },
+    {
+        "name": "cfprefsd",
+        "username": "root",
+        "pid": 140,
+        "status": "running"
+    },
+    {
+        "name": "tccd",
+        "username": "root",
+        "pid": 141,
+        "status": "running"
+    },
+    {
+        "name": "WindowServer",
+        "username": "root",
+        "pid": 142,
+        "status": "running"
+    },
+    {
+        "name": "aslmanager",
+        "username": "root",
+        "pid": 143,
+        "status": "running"
+    },
+    {
+        "name": "coreservicesd",
+        "username": "root",
+        "pid": 144,
+        "status": "running"
+    },
+    {
+        "name": "loginwindow",
+        "username": "root",
+        "pid": 145,
+        "status": "running"
+    },
+    {
+        "name": "analyticsd",
+        "username": "_analyticsd",
+        "pid": 146,
+        "status": "running"
+    },
+    {
+        "name": "PowerUIAgent",
+        "username": "root",
+        "pid": 147,
+        "status": "running"
+    },
+    {
+        "name": "backupd-helper",
+        "username": "root",
+        "pid": 148,
+        "status": "running"
+    },
+    {
+        "name": "authd",
+        "username": "root",
+        "pid": 150,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "root",
+        "pid": 155,
+        "status": "running"
+    },
+    {
+        "name": "trustd",
+        "username": "_trustd",
+        "pid": 158,
+        "status": "running"
+    },
+    {
+        "name": "coreaudiod",
+        "username": "_coreaudiod",
+        "pid": 167,
+        "status": "running"
+    },
+    {
+        "name": "searchpartyd",
+        "username": "root",
+        "pid": 191,
+        "status": "running"
+    },
+    {
+        "name": "nehelper",
+        "username": "root",
+        "pid": 192,
+        "status": "running"
+    },
+    {
+        "name": "symptomsd",
+        "username": "_networkd",
+        "pid": 193,
+        "status": "running"
+    },
+    {
+        "name": "airportd",
+        "username": "root",
+        "pid": 194,
+        "status": "running"
+    },
+    {
+        "name": "findmydeviced",
+        "username": "root",
+        "pid": 195,
+        "status": "running"
+    },
+    {
+        "name": "mDNSResponder",
+        "username": "_mdnsresponder",
+        "pid": 196,
+        "status": "running"
+    },
+    {
+        "name": "FindMyMacd",
+        "username": "root",
+        "pid": 197,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_coreaudiod",
+        "pid": 199,
+        "status": "running"
+    },
+    {
+        "name": "syspolicyd",
+        "username": "root",
+        "pid": 200,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.ifdrea",
+        "username": "root",
+        "pid": 202,
+        "status": "running"
+    },
+    {
+        "name": "awdd",
+        "username": "root",
+        "pid": 203,
+        "status": "running"
+    },
+    {
+        "name": "apfsd",
+        "username": "root",
+        "pid": 204,
+        "status": "running"
+    },
+    {
+        "name": "mDNSResponderHel",
+        "username": "root",
+        "pid": 205,
+        "status": "running"
+    },
+    {
+        "name": "diskmanagementd",
+        "username": "root",
+        "pid": 206,
+        "status": "running"
+    },
+    {
+        "name": "usbd",
+        "username": "root",
+        "pid": 208,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.audio.",
+        "username": "_coreaudiod",
+        "pid": 210,
+        "status": "running"
+    },
+    {
+        "name": "runningboardd",
+        "username": "root",
+        "pid": 211,
+        "status": "running"
+    },
+    {
+        "name": "nsurlsessiond",
+        "username": "_nsurlsessiond",
+        "pid": 213,
+        "status": "running"
+    },
+    {
+        "name": "AudioComponentRe",
+        "username": "root",
+        "pid": 214,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.audio.",
+        "username": "_coreaudiod",
+        "pid": 216,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.geod",
+        "username": "_locationd",
+        "pid": 243,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_locationd",
+        "pid": 244,
+        "status": "running"
+    },
+    {
+        "name": "secinitd",
+        "username": "_locationd",
+        "pid": 245,
+        "status": "running"
+    },
+    {
+        "name": "cfprefsd",
+        "username": "_locationd",
+        "pid": 251,
+        "status": "running"
+    },
+    {
+        "name": "trustd",
+        "username": "_locationd",
+        "pid": 253,
+        "status": "running"
+    },
+    {
+        "name": "containermanager",
+        "username": "_locationd",
+        "pid": 258,
+        "status": "running"
+    },
+    {
+        "name": "amfid",
+        "username": "root",
+        "pid": 259,
+        "status": "running"
+    },
+    {
+        "name": "mobileassetd",
+        "username": "root",
+        "pid": 260,
+        "status": "running"
+    },
+    {
+        "name": "lsd",
+        "username": "root",
+        "pid": 262,
+        "status": "running"
+    },
+    {
+        "name": "backupd",
+        "username": "root",
+        "pid": 263,
+        "status": "running"
+    },
+    {
+        "name": "ReportCrash",
+        "username": "root",
+        "pid": 267,
+        "status": "running"
+    },
+    {
+        "name": "siriinferenced",
+        "username": "root",
+        "pid": 268,
+        "status": "running"
+    },
+    {
+        "name": "locationd",
+        "username": "_locationd",
+        "pid": 270,
+        "status": "running"
+    },
+    {
+        "name": "softwareupdated",
+        "username": "_softwareupdate",
+        "pid": 271,
+        "status": "running"
+    },
+    {
+        "name": "logd_helper",
+        "username": "root",
+        "pid": 275,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.CodeSi",
+        "username": "root",
+        "pid": 280,
+        "status": "running"
+    },
+    {
+        "name": "thermald",
+        "username": "root",
+        "pid": 281,
+        "status": "running"
+    },
+    {
+        "name": "PlugInLibrarySer",
+        "username": "root",
+        "pid": 282,
+        "status": "running"
+    },
+    {
+        "name": "containermanager",
+        "username": "root",
+        "pid": 283,
+        "status": "running"
+    },
+    {
+        "name": "mds_stores",
+        "username": "root",
+        "pid": 284,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 285,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 286,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 287,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 288,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 290,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 291,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 292,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 293,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 294,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 296,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 297,
+        "status": "running"
+    },
+    {
+        "name": "postgres",
+        "username": "postgres",
+        "pid": 298,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_spotlight",
+        "pid": 299,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_nsurlsessiond",
+        "pid": 300,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_reportmemoryexception",
+        "pid": 303,
+        "status": "running"
+    },
+    {
+        "name": "nfcd",
+        "username": "_applepay",
+        "pid": 304,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_softwareupdate",
+        "pid": 312,
+        "status": "running"
+    },
+    {
+        "name": "suhelperd",
+        "username": "root",
+        "pid": 313,
+        "status": "running"
+    },
+    {
+        "name": "akd",
+        "username": "root",
+        "pid": 314,
+        "status": "running"
+    },
+    {
+        "name": "fontd",
+        "username": "_atsserver",
+        "pid": 315,
+        "status": "running"
+    },
+    {
+        "name": "adid",
+        "username": "_fpsd",
+        "pid": 318,
+        "status": "running"
+    },
+    {
+        "name": "fontworker",
+        "username": "root",
+        "pid": 319,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.Mobile",
+        "username": "root",
+        "pid": 320,
+        "status": "running"
+    },
+    {
+        "name": "hidd",
+        "username": "_hidd",
+        "pid": 321,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_windowserver",
+        "pid": 323,
+        "status": "running"
+    },
+    {
+        "name": "secinitd",
+        "username": "root",
+        "pid": 324,
+        "status": "running"
+    },
+    {
+        "name": "colorsync.displa",
+        "username": "root",
+        "pid": 327,
+        "status": "running"
+    },
+    {
+        "name": "colorsyncd",
+        "username": "root",
+        "pid": 328,
+        "status": "running"
+    },
+    {
+        "name": "appleeventsd",
+        "username": "_appleevents",
+        "pid": 329,
+        "status": "running"
+    },
+    {
+        "name": "ViewBridgeAuxili",
+        "username": "root",
+        "pid": 331,
+        "status": "running"
+    },
+    {
+        "name": "bootinstalld",
+        "username": "root",
+        "pid": 332,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.Accoun",
+        "username": "root",
+        "pid": 337,
+        "status": "running"
+    },
+    {
+        "name": "GSSCred",
+        "username": "root",
+        "pid": 340,
+        "status": "running"
+    },
+    {
+        "name": "sysmond",
+        "username": "root",
+        "pid": 341,
+        "status": "running"
+    },
+    {
+        "name": "coreauthd",
+        "username": "root",
+        "pid": 344,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "alina",
+        "pid": 345,
+        "status": "running"
+    },
+    {
+        "name": "cfprefsd",
+        "username": "alina",
+        "pid": 346,
+        "status": "running"
+    },
+    {
+        "name": "securityd_servic",
+        "username": "root",
+        "pid": 347,
+        "status": "running"
+    },
+    {
+        "name": "UserEventAgent",
+        "username": "alina",
+        "pid": 348,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.sbd",
+        "username": "alina",
+        "pid": 350,
+        "status": "running"
+    },
+    {
+        "name": "knowledge-agent",
+        "username": "alina",
+        "pid": 352,
+        "status": "running"
+    },
+    {
+        "name": "lsd",
+        "username": "alina",
+        "pid": 353,
+        "status": "running"
+    },
+    {
+        "name": "secd",
+        "username": "alina",
+        "pid": 354,
+        "status": "running"
+    },
+    {
+        "name": "backgroundtaskmanagementagent",
+        "username": "alina",
+        "pid": 356,
+        "status": "running"
+    },
+    {
+        "name": "trustd",
+        "username": "alina",
+        "pid": 357,
+        "status": "running"
+    },
+    {
+        "name": "CommCenter",
+        "username": "alina",
+        "pid": 359,
+        "status": "running"
+    },
+    {
+        "name": "rapportd",
+        "username": "alina",
+        "pid": 360,
+        "status": "running"
+    },
+    {
+        "name": "sharedfilelistd",
+        "username": "alina",
+        "pid": 361,
+        "status": "running"
+    },
+    {
+        "name": "TrustedPeersHelper",
+        "username": "alina",
+        "pid": 362,
+        "status": "running"
+    },
+    {
+        "name": "nsurlsessiond",
+        "username": "alina",
+        "pid": 366,
+        "status": "running"
+    },
+    {
+        "name": "routined",
+        "username": "alina",
+        "pid": 367,
+        "status": "running"
+    },
+    {
+        "name": "secinitd",
+        "username": "alina",
+        "pid": 368,
+        "status": "running"
+    },
+    {
+        "name": "networkserviceproxy",
+        "username": "alina",
+        "pid": 370,
+        "status": "running"
+    },
+    {
+        "name": "containermanagerd",
+        "username": "alina",
+        "pid": 371,
+        "status": "running"
+    },
+    {
+        "name": "APFSUserAgent",
+        "username": "alina",
+        "pid": 372,
+        "status": "running"
+    },
+    {
+        "name": "lockoutagent",
+        "username": "alina",
+        "pid": 373,
+        "status": "running"
+    },
+    {
+        "name": "identityservicesd",
+        "username": "alina",
+        "pid": 375,
+        "status": "running"
+    },
+    {
+        "name": "ScreenTimeAgent",
+        "username": "alina",
+        "pid": 376,
+        "status": "running"
+    },
+    {
+        "name": "dmd",
+        "username": "alina",
+        "pid": 377,
+        "status": "running"
+    },
+    {
+        "name": "usernoted",
+        "username": "alina",
+        "pid": 378,
+        "status": "running"
+    },
+    {
+        "name": "Dictionary",
+        "username": "alina",
+        "pid": 380,
+        "status": "running"
+    },
+    {
+        "name": "talagent",
+        "username": "alina",
+        "pid": 382,
+        "status": "running"
+    },
+    {
+        "name": "Dock",
+        "username": "alina",
+        "pid": 383,
+        "status": "running"
+    },
+    {
+        "name": "ControlCenter",
+        "username": "alina",
+        "pid": 384,
+        "status": "running"
+    },
+    {
+        "name": "SystemUIServer",
+        "username": "alina",
+        "pid": 385,
+        "status": "running"
+    },
+    {
+        "name": "Finder",
+        "username": "alina",
+        "pid": 386,
+        "status": "running"
+    },
+    {
+        "name": "systemsoundserve",
+        "username": "root",
+        "pid": 389,
+        "status": "running"
+    },
+    {
+        "name": "pboard",
+        "username": "alina",
+        "pid": 390,
+        "status": "running"
+    },
+    {
+        "name": "NotificationCenter",
+        "username": "alina",
+        "pid": 391,
+        "status": "running"
+    },
+    {
+        "name": "ViewBridgeAuxiliary",
+        "username": "alina",
+        "pid": 392,
+        "status": "running"
+    },
+    {
+        "name": "accountsd",
+        "username": "alina",
+        "pid": 393,
+        "status": "running"
+    },
+    {
+        "name": "pkd",
+        "username": "alina",
+        "pid": 394,
+        "status": "running"
+    },
+    {
+        "name": "tccd",
+        "username": "alina",
+        "pid": 395,
+        "status": "running"
+    },
+    {
+        "name": "itunescloudd",
+        "username": "alina",
+        "pid": 396,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookUIService",
+        "username": "alina",
+        "pid": 397,
+        "status": "running"
+    },
+    {
+        "name": "fontd",
+        "username": "alina",
+        "pid": 398,
+        "status": "running"
+    },
+    {
+        "name": "ctkd",
+        "username": "alina",
+        "pid": 399,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_appleevents",
+        "pid": 400,
+        "status": "running"
+    },
+    {
+        "name": "fontworker",
+        "username": "alina",
+        "pid": 401,
+        "status": "running"
+    },
+    {
+        "name": "iconservicesagent",
+        "username": "alina",
+        "pid": 402,
+        "status": "running"
+    },
+    {
+        "name": "Spotlight",
+        "username": "alina",
+        "pid": 403,
+        "status": "running"
+    },
+    {
+        "name": "colorsync.useragent",
+        "username": "alina",
+        "pid": 404,
+        "status": "running"
+    },
+    {
+        "name": "bird",
+        "username": "alina",
+        "pid": 405,
+        "status": "running"
+    },
+    {
+        "name": "filecoordination",
+        "username": "root",
+        "pid": 406,
+        "status": "running"
+    },
+    {
+        "name": "useractivityd",
+        "username": "alina",
+        "pid": 408,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.dock.extra",
+        "username": "alina",
+        "pid": 409,
+        "status": "running"
+    },
+    {
+        "name": "ScopedBookmarkAgent",
+        "username": "alina",
+        "pid": 410,
+        "status": "running"
+    },
+    {
+        "name": "photolibraryd",
+        "username": "alina",
+        "pid": 411,
+        "status": "running"
+    },
+    {
+        "name": "parsecd",
+        "username": "alina",
+        "pid": 412,
+        "status": "running"
+    },
+    {
+        "name": "AMPDeviceDiscoveryAgent",
+        "username": "alina",
+        "pid": 415,
+        "status": "running"
+    },
+    {
+        "name": "WiFiAgent",
+        "username": "alina",
+        "pid": 416,
+        "status": "running"
+    },
+    {
+        "name": "pbs",
+        "username": "alina",
+        "pid": 418,
+        "status": "running"
+    },
+    {
+        "name": "CallHistoryPluginHelper",
+        "username": "alina",
+        "pid": 419,
+        "status": "running"
+    },
+    {
+        "name": "mdwrite",
+        "username": "alina",
+        "pid": 421,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.Safari.History",
+        "username": "alina",
+        "pid": 422,
+        "status": "running"
+    },
+    {
+        "name": "CalendarWidgetExtension",
+        "username": "alina",
+        "pid": 423,
+        "status": "running"
+    },
+    {
+        "name": "akd",
+        "username": "alina",
+        "pid": 424,
+        "status": "running"
+    },
+    {
+        "name": "ContactsAccountsService",
+        "username": "alina",
+        "pid": 425,
+        "status": "running"
+    },
+    {
+        "name": "cloudd",
+        "username": "alina",
+        "pid": 426,
+        "status": "running"
+    },
+    {
+        "name": "spindump",
+        "username": "root",
+        "pid": 427,
+        "status": "running"
+    },
+    {
+        "name": "spindump_agent",
+        "username": "alina",
+        "pid": 428,
+        "status": "running"
+    },
+    {
+        "name": "SubmitDiagInfo",
+        "username": "root",
+        "pid": 429,
+        "status": "running"
+    },
+    {
+        "name": "ScreenTimeWidgetExtension",
+        "username": "alina",
+        "pid": 430,
+        "status": "running"
+    },
+    {
+        "name": "WeatherWidget",
+        "username": "alina",
+        "pid": 432,
+        "status": "running"
+    },
+    {
+        "name": "AudioComponentRegistrar",
+        "username": "alina",
+        "pid": 433,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.quicklook.ThumbnailsAgent",
+        "username": "alina",
+        "pid": 435,
+        "status": "running"
+    },
+    {
+        "name": "CarbonComponentScannerXPC",
+        "username": "alina",
+        "pid": 436,
+        "status": "running"
+    },
+    {
+        "name": "CVMServer",
+        "username": "root",
+        "pid": 437,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.accessibility.mediaaccessibilityd",
+        "username": "alina",
+        "pid": 438,
+        "status": "running"
+    },
+    {
+        "name": "SafariBookmarksSyncAgent",
+        "username": "alina",
+        "pid": 440,
+        "status": "running"
+    },
+    {
+        "name": "sharingd",
+        "username": "alina",
+        "pid": 441,
+        "status": "running"
+    },
+    {
+        "name": "CalendarAgent",
+        "username": "alina",
+        "pid": 442,
+        "status": "running"
+    },
+    {
+        "name": "AppSSOAgent",
+        "username": "alina",
+        "pid": 443,
+        "status": "running"
+    },
+    {
+        "name": "cdpd",
+        "username": "alina",
+        "pid": 444,
+        "status": "running"
+    },
+    {
+        "name": "ProtectedCloudKeySyncing",
+        "username": "alina",
+        "pid": 445,
+        "status": "running"
+    },
+    {
+        "name": "Keychain Circle Notification",
+        "username": "alina",
+        "pid": 446,
+        "status": "running"
+    },
+    {
+        "name": "CloudKeychainProxy",
+        "username": "alina",
+        "pid": 448,
+        "status": "running"
+    },
+    {
+        "name": "wifianalyticsd",
+        "username": "root",
+        "pid": 450,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.Ambien",
+        "username": "root",
+        "pid": 451,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.geod",
+        "username": "alina",
+        "pid": 452,
+        "status": "running"
+    },
+    {
+        "name": "WirelessRadioMan",
+        "username": "root",
+        "pid": 454,
+        "status": "running"
+    },
+    {
+        "name": "callservicesd",
+        "username": "alina",
+        "pid": 455,
+        "status": "running"
+    },
+    {
+        "name": "familycircled",
+        "username": "alina",
+        "pid": 457,
+        "status": "running"
+    },
+    {
+        "name": "imagent",
+        "username": "alina",
+        "pid": 458,
+        "status": "running"
+    },
+    {
+        "name": "ctkd",
+        "username": "_ctkd",
+        "pid": 459,
+        "status": "running"
+    },
+    {
+        "name": "CoreLocationAgent",
+        "username": "alina",
+        "pid": 460,
+        "status": "running"
+    },
+    {
+        "name": "IMDPersistenceAgent",
+        "username": "alina",
+        "pid": 461,
+        "status": "running"
+    },
+    {
+        "name": "mediaremoteagent",
+        "username": "alina",
+        "pid": 462,
+        "status": "running"
+    },
+    {
+        "name": "fmfd",
+        "username": "alina",
+        "pid": 463,
+        "status": "running"
+    },
+    {
+        "name": "PlugInLibraryService",
+        "username": "alina",
+        "pid": 464,
+        "status": "running"
+    },
+    {
+        "name": "neagent",
+        "username": "alina",
+        "pid": 465,
+        "status": "running"
+    },
+    {
+        "name": "homed",
+        "username": "alina",
+        "pid": 467,
+        "status": "running"
+    },
+    {
+        "name": "fileproviderd",
+        "username": "alina",
+        "pid": 468,
+        "status": "running"
+    },
+    {
+        "name": "AppleSpell",
+        "username": "alina",
+        "pid": 469,
+        "status": "running"
+    },
+    {
+        "name": "ContextStoreAgent",
+        "username": "alina",
+        "pid": 470,
+        "status": "running"
+    },
+    {
+        "name": "SafariLaunchAgent",
+        "username": "alina",
+        "pid": 471,
+        "status": "running"
+    },
+    {
+        "name": "keyboardservicesd",
+        "username": "alina",
+        "pid": 472,
+        "status": "running"
+    },
+    {
+        "name": "assistantd",
+        "username": "alina",
+        "pid": 473,
+        "status": "running"
+    },
+    {
+        "name": "coreauthd",
+        "username": "alina",
+        "pid": 474,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.siri.embeddedspeech",
+        "username": "alina",
+        "pid": 475,
+        "status": "running"
+    },
+    {
+        "name": "commerce",
+        "username": "alina",
+        "pid": 477,
+        "status": "running"
+    },
+    {
+        "name": "passd",
+        "username": "alina",
+        "pid": 478,
+        "status": "running"
+    },
+    {
+        "name": "diagnosticextensionsd",
+        "username": "alina",
+        "pid": 479,
+        "status": "running"
+    },
+    {
+        "name": "icdd",
+        "username": "alina",
+        "pid": 480,
+        "status": "running"
+    },
+    {
+        "name": "SafeEjectGPUAgent",
+        "username": "alina",
+        "pid": 481,
+        "status": "running"
+    },
+    {
+        "name": "SafeEjectGPUService",
+        "username": "alina",
+        "pid": 482,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.hiservices-xpcservice",
+        "username": "alina",
+        "pid": 484,
+        "status": "running"
+    },
+    {
+        "name": "imklaunchagent",
+        "username": "alina",
+        "pid": 485,
+        "status": "running"
+    },
+    {
+        "name": "PAH_Extension",
+        "username": "alina",
+        "pid": 486,
+        "status": "running"
+    },
+    {
+        "name": "UsageTrackingAgent",
+        "username": "alina",
+        "pid": 488,
+        "status": "running"
+    },
+    {
+        "name": "UIKitSystem",
+        "username": "alina",
+        "pid": 490,
+        "status": "running"
+    },
+    {
+        "name": "corespotlightd",
+        "username": "alina",
+        "pid": 491,
+        "status": "running"
+    },
+    {
+        "name": "swcd",
+        "username": "alina",
+        "pid": 492,
+        "status": "running"
+    },
+    {
+        "name": "suggestd",
+        "username": "alina",
+        "pid": 494,
+        "status": "running"
+    },
+    {
+        "name": "corespeechd",
+        "username": "alina",
+        "pid": 495,
+        "status": "running"
+    },
+    {
+        "name": "Siri",
+        "username": "alina",
+        "pid": 501,
+        "status": "running"
+    },
+    {
+        "name": "askpermissiond",
+        "username": "alina",
+        "pid": 502,
+        "status": "running"
+    },
+    {
+        "name": "AirPlayUIAgent",
+        "username": "alina",
+        "pid": 505,
+        "status": "running"
+    },
+    {
+        "name": "cloudpaird",
+        "username": "alina",
+        "pid": 506,
+        "status": "running"
+    },
+    {
+        "name": "diagnostics_agent",
+        "username": "alina",
+        "pid": 507,
+        "status": "running"
+    },
+    {
+        "name": "TextInputMenuAgent",
+        "username": "alina",
+        "pid": 508,
+        "status": "running"
+    },
+    {
+        "name": "amsaccountsd",
+        "username": "alina",
+        "pid": 510,
+        "status": "running"
+    },
+    {
+        "name": "ctkahp",
+        "username": "root",
+        "pid": 512,
+        "status": "running"
+    },
+    {
+        "name": "figma_agent",
+        "username": "alina",
+        "pid": 513,
+        "status": "running"
+    },
+    {
+        "name": "TextInputSwitcher",
+        "username": "alina",
+        "pid": 514,
+        "status": "running"
+    },
+    {
+        "name": "ctkahp",
+        "username": "alina",
+        "pid": 515,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.DictionaryServiceHelper",
+        "username": "alina",
+        "pid": 518,
+        "status": "running"
+    },
+    {
+        "name": "triald",
+        "username": "alina",
+        "pid": 520,
+        "status": "running"
+    },
+    {
+        "name": "systemstats",
+        "username": "root",
+        "pid": 521,
+        "status": "running"
+    },
+    {
+        "name": "USBAgent",
+        "username": "alina",
+        "pid": 522,
+        "status": "running"
+    },
+    {
+        "name": "CalNCService",
+        "username": "alina",
+        "pid": 523,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.siri.ClientFlow.ClientScripter",
+        "username": "alina",
+        "pid": 526,
+        "status": "running"
+    },
+    {
+        "name": "WiFiVelocityAgent",
+        "username": "alina",
+        "pid": 528,
+        "status": "running"
+    },
+    {
+        "name": "wifivelocityd",
+        "username": "root",
+        "pid": 529,
+        "status": "running"
+    },
+    {
+        "name": "smd",
+        "username": "root",
+        "pid": 531,
+        "status": "running"
+    },
+    {
+        "name": "AMPLibraryAgent",
+        "username": "alina",
+        "pid": 532,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.cmio.r",
+        "username": "root",
+        "pid": 534,
+        "status": "running"
+    },
+    {
+        "name": "AppleCameraAssis",
+        "username": "_cmiodalassistants",
+        "pid": 535,
+        "status": "running"
+    },
+    {
+        "name": "morphunassetsupd",
+        "username": "root",
+        "pid": 538,
+        "status": "running"
+    },
+    {
+        "name": "findmydevice-user-agent",
+        "username": "alina",
+        "pid": 541,
+        "status": "running"
+    },
+    {
+        "name": "followupd",
+        "username": "alina",
+        "pid": 542,
+        "status": "running"
+    },
+    {
+        "name": "captiveagent",
+        "username": "_captiveagent",
+        "pid": 545,
+        "status": "running"
+    },
+    {
+        "name": "CrashReporterSup",
+        "username": "root",
+        "pid": 546,
+        "status": "running"
+    },
+    {
+        "name": "SoftwareUpdateNotificationManager",
+        "username": "alina",
+        "pid": 548,
+        "status": "running"
+    },
+    {
+        "name": "amsengagementd",
+        "username": "alina",
+        "pid": 549,
+        "status": "running"
+    },
+    {
+        "name": "IMRemoteURLConnectionAgent",
+        "username": "alina",
+        "pid": 550,
+        "status": "running"
+    },
+    {
+        "name": "IMRemoteURLConnectionAgent",
+        "username": "alina",
+        "pid": 551,
+        "status": "running"
+    },
+    {
+        "name": "IMRemoteURLConnectionAgent",
+        "username": "alina",
+        "pid": 552,
+        "status": "running"
+    },
+    {
+        "name": "IMRemoteURLConnectionAgent",
+        "username": "alina",
+        "pid": 554,
+        "status": "running"
+    },
+    {
+        "name": "IMRemoteURLConnectionAgent",
+        "username": "alina",
+        "pid": 555,
+        "status": "running"
+    },
+    {
+        "name": "AssetCacheLocatorService",
+        "username": "alina",
+        "pid": 556,
+        "status": "running"
+    },
+    {
+        "name": "AssetCache",
+        "username": "_assetcache",
+        "pid": 557,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "_assetcache",
+        "pid": 558,
+        "status": "running"
+    },
+    {
+        "name": "AssetCacheTether",
+        "username": "root",
+        "pid": 559,
+        "status": "running"
+    },
+    {
+        "name": "CalendarWidgetExtension",
+        "username": "alina",
+        "pid": 560,
+        "status": "running"
+    },
+    {
+        "name": "StocksWidget",
+        "username": "alina",
+        "pid": 561,
+        "status": "running"
+    },
+    {
+        "name": "WorldClockWidget",
+        "username": "alina",
+        "pid": 562,
+        "status": "running"
+    },
+    {
+        "name": "fairplayd",
+        "username": "_fpsd",
+        "pid": 565,
+        "status": "running"
+    },
+    {
+        "name": "adprivacyd",
+        "username": "alina",
+        "pid": 566,
+        "status": "running"
+    },
+    {
+        "name": "rtcreportingd",
+        "username": "root",
+        "pid": 568,
+        "status": "running"
+    },
+    {
+        "name": "ContextService",
+        "username": "alina",
+        "pid": 571,
+        "status": "running"
+    },
+    {
+        "name": "CategoriesService",
+        "username": "alina",
+        "pid": 572,
+        "status": "running"
+    },
+    {
+        "name": "mdbulkimport",
+        "username": "alina",
+        "pid": 573,
+        "status": "running"
+    },
+    {
+        "name": "mdbulkimport",
+        "username": "_spotlight",
+        "pid": 574,
+        "status": "running"
+    },
+    {
+        "name": "pkd",
+        "username": "_spotlight",
+        "pid": 575,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.audio.SandboxHelper",
+        "username": "alina",
+        "pid": 577,
+        "status": "running"
+    },
+    {
+        "name": "trustd",
+        "username": "_spotlight",
+        "pid": 580,
+        "status": "running"
+    },
+    {
+        "name": "OSDUIHelper",
+        "username": "alina",
+        "pid": 611,
+        "status": "running"
+    },
+    {
+        "name": "aned",
+        "username": "root",
+        "pid": 625,
+        "status": "running"
+    },
+    {
+        "name": "online-authd",
+        "username": "root",
+        "pid": 626,
+        "status": "running"
+    },
+    {
+        "name": "coresymbolicatio",
+        "username": "root",
+        "pid": 627,
+        "status": "running"
+    },
+    {
+        "name": "gamecontrollerd",
+        "username": "_gamecontrollerd",
+        "pid": 628,
+        "status": "running"
+    },
+    {
+        "name": "SiriNCService",
+        "username": "alina",
+        "pid": 636,
+        "status": "running"
+    },
+    {
+        "name": "CMFSyncAgent",
+        "username": "alina",
+        "pid": 639,
+        "status": "running"
+    },
+    {
+        "name": "mdworker",
+        "username": "alina",
+        "pid": 650,
+        "status": "running"
+    },
+    {
+        "name": "distnoted",
+        "username": "postgres",
+        "pid": 660,
+        "status": "running"
+    },
+    {
+        "name": "devicecheckd",
+        "username": "alina",
+        "pid": 686,
+        "status": "running"
+    },
+    {
+        "name": "mdbulkimport",
+        "username": "postgres",
+        "pid": 687,
+        "status": "running"
+    },
+    {
+        "name": "cfprefsd",
+        "username": "postgres",
+        "pid": 688,
+        "status": "running"
+    },
+    {
+        "name": "pkd",
+        "username": "postgres",
+        "pid": 689,
+        "status": "running"
+    },
+    {
+        "name": "lsd",
+        "username": "postgres",
+        "pid": 690,
+        "status": "running"
+    },
+    {
+        "name": "secd",
+        "username": "postgres",
+        "pid": 691,
+        "status": "running"
+    },
+    {
+        "name": "assistant_service",
+        "username": "alina",
+        "pid": 692,
+        "status": "running"
+    },
+    {
+        "name": "storeaccountd",
+        "username": "alina",
+        "pid": 694,
+        "status": "running"
+    },
+    {
+        "name": "mobileactivation",
+        "username": "root",
+        "pid": 696,
+        "status": "running"
+    },
+    {
+        "name": "trustd",
+        "username": "postgres",
+        "pid": 697,
+        "status": "running"
+    },
+    {
+        "name": "siriknowledged",
+        "username": "alina",
+        "pid": 698,
+        "status": "running"
+    },
+    {
+        "name": "FMIPClientXPCService",
+        "username": "alina",
+        "pid": 701,
+        "status": "running"
+    },
+    {
+        "name": "DockHelper",
+        "username": "alina",
+        "pid": 703,
+        "status": "running"
+    },
+    {
+        "name": "containermanager",
+        "username": "_spotlight",
+        "pid": 705,
+        "status": "running"
+    },
+    {
+        "name": "CoreSpotlightService",
+        "username": "alina",
+        "pid": 716,
+        "status": "running"
+    },
+    {
+        "name": "containermanager",
+        "username": "postgres",
+        "pid": 718,
+        "status": "running"
+    },
+    {
+        "name": "tzd",
+        "username": "root",
+        "pid": 727,
+        "status": "running"
+    },
+    {
+        "name": "storagekitd",
+        "username": "root",
+        "pid": 730,
+        "status": "running"
+    },
+    {
+        "name": "deleted",
+        "username": "alina",
+        "pid": 731,
+        "status": "running"
+    },
+    {
+        "name": "deleted_helper",
+        "username": "root",
+        "pid": 732,
+        "status": "running"
+    },
+    {
+        "name": "replayd",
+        "username": "alina",
+        "pid": 733,
+        "status": "running"
+    },
+    {
+        "name": "installd",
+        "username": "root",
+        "pid": 735,
+        "status": "running"
+    },
+    {
+        "name": "symptomsd-diag",
+        "username": "root",
+        "pid": 736,
+        "status": "running"
+    },
+    {
+        "name": "appstoreagent",
+        "username": "alina",
+        "pid": 737,
+        "status": "running"
+    },
+    {
+        "name": "system_installd",
+        "username": "root",
+        "pid": 738,
+        "status": "running"
+    },
+    {
+        "name": "storedownloadd",
+        "username": "alina",
+        "pid": 739,
+        "status": "running"
+    },
+    {
+        "name": "MusicCacheExtension",
+        "username": "alina",
+        "pid": 740,
+        "status": "running"
+    },
+    {
+        "name": "CacheDeleteExtension",
+        "username": "alina",
+        "pid": 741,
+        "status": "running"
+    },
+    {
+        "name": "iconservicesagen",
+        "username": "root",
+        "pid": 743,
+        "status": "running"
+    },
+    {
+        "name": "TVCacheExtension",
+        "username": "alina",
+        "pid": 744,
+        "status": "running"
+    },
+    {
+        "name": "installcoordinat",
+        "username": "_installcoordinationd",
+        "pid": 745,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.AppSto",
+        "username": "root",
+        "pid": 746,
+        "status": "running"
+    },
+    {
+        "name": "ASPCarryLog",
+        "username": "root",
+        "pid": 761,
+        "status": "running"
+    },
+    {
+        "name": "lskdd",
+        "username": "_fpsd",
+        "pid": 764,
+        "status": "running"
+    },
+    {
+        "name": "XprotectService",
+        "username": "root",
+        "pid": 768,
+        "status": "running"
+    },
+    {
+        "name": "PasswordBreachAgent",
+        "username": "alina",
+        "pid": 777,
+        "status": "running"
+    },
+    {
+        "name": "translationd",
+        "username": "alina",
+        "pid": 793,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.Safari.SafeBrowsing.Service",
+        "username": "alina",
+        "pid": 794,
+        "status": "running"
+    },
+    {
+        "name": "EscrowSecurityAlert",
+        "username": "alina",
+        "pid": 826,
+        "status": "running"
+    },
+    {
+        "name": "transparencyd",
+        "username": "alina",
+        "pid": 840,
+        "status": "running"
+    },
+    {
+        "name": "avatarsd",
+        "username": "alina",
+        "pid": 848,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.speech.speechsynthesisd",
+        "username": "alina",
+        "pid": 951,
+        "status": "running"
+    },
+    {
+        "name": "applessdstatisti",
+        "username": "root",
+        "pid": 996,
+        "status": "running"
+    },
+    {
+        "name": "IMAutomaticHistoryDeletionAgent",
+        "username": "alina",
+        "pid": 997,
+        "status": "running"
+    },
+    {
+        "name": "XProtect",
+        "username": "root",
+        "pid": 1001,
+        "status": "running"
+    },
+    {
+        "name": "XProtect",
+        "username": "alina",
+        "pid": 1003,
+        "status": "running"
+    },
+    {
+        "name": "ControlCenterHelper",
+        "username": "alina",
+        "pid": 1501,
+        "status": "running"
+    },
+    {
+        "name": "dprivacyd",
+        "username": "root",
+        "pid": 1569,
+        "status": "running"
+    },
+    {
+        "name": "PodcastContentService",
+        "username": "alina",
+        "pid": 1586,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.BKAgentService",
+        "username": "alina",
+        "pid": 1587,
+        "status": "running"
+    },
+    {
+        "name": "AMPArtworkAgent",
+        "username": "alina",
+        "pid": 1588,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookSatellite",
+        "username": "alina",
+        "pid": 1594,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.audio.",
+        "username": "root",
+        "pid": 1604,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+        "username": "alina",
+        "pid": 2054,
+        "status": "running"
+    },
+    {
+        "name": "MTLCompilerServi",
+        "username": "_windowserver",
+        "pid": 2435,
+        "status": "running"
+    },
+    {
+        "name": "MTLCompilerServi",
+        "username": "_windowserver",
+        "pid": 2436,
+        "status": "running"
+    },
+    {
+        "name": "AuthenticationServicesAgent",
+        "username": "alina",
+        "pid": 2504,
+        "status": "running"
+    },
+    {
+        "name": "System Information",
+        "username": "alina",
+        "pid": 3914,
+        "status": "running"
+    },
+    {
+        "name": "ndoagent",
+        "username": "alina",
+        "pid": 3920,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.appkit.xpc.openAndSavePanelService",
+        "username": "alina",
+        "pid": 3925,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookUIService",
+        "username": "alina",
+        "pid": 3926,
+        "status": "running"
+    },
+    {
+        "name": "SidecarRelay",
+        "username": "alina",
+        "pid": 4078,
+        "status": "running"
+    },
+    {
+        "name": "photoanalysisd",
+        "username": "alina",
+        "pid": 5479,
+        "status": "running"
+    },
+    {
+        "name": "mapspushd",
+        "username": "alina",
+        "pid": 5481,
+        "status": "running"
+    },
+    {
+        "name": "cloudphotod",
+        "username": "alina",
+        "pid": 5486,
+        "status": "running"
+    },
+    {
+        "name": "AssetCacheLocato",
+        "username": "_assetcache",
+        "pid": 5508,
+        "status": "running"
+    },
+    {
+        "name": "mdworker",
+        "username": "_spotlight",
+        "pid": 5529,
+        "status": "running"
+    },
+    {
+        "name": "DPSubmissionServ",
+        "username": "root",
+        "pid": 5546,
+        "status": "running"
+    },
+    {
+        "name": "periodic-wrapper",
+        "username": "root",
+        "pid": 5629,
+        "status": "running"
+    },
+    {
+        "name": "cloudd",
+        "username": "root",
+        "pid": 5715,
+        "status": "running"
+    },
+    {
+        "name": "sysdiagnose",
+        "username": "root",
+        "pid": 5716,
+        "status": "running"
+    },
+    {
+        "name": "MailCacheDelete",
+        "username": "alina",
+        "pid": 5718,
+        "status": "running"
+    },
+    {
+        "name": "media-indexer",
+        "username": "alina",
+        "pid": 5759,
+        "status": "running"
+    },
+    {
+        "name": "localizationswitcherd",
+        "username": "alina",
+        "pid": 5760,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.siri.ClientFlow.ClientScripter",
+        "username": "alina",
+        "pid": 5775,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookSatellite",
+        "username": "alina",
+        "pid": 6718,
+        "status": "running"
+    },
+    {
+        "name": "searchpartyuseragent",
+        "username": "alina",
+        "pid": 7402,
+        "status": "running"
+    },
+    {
+        "name": "ArchiveService",
+        "username": "alina",
+        "pid": 7593,
+        "status": "running"
+    },
+    {
+        "name": "microstackshot",
+        "username": "root",
+        "pid": 7913,
+        "status": "running"
+    },
+    {
+        "name": "nbagent",
+        "username": "alina",
+        "pid": 7914,
+        "status": "running"
+    },
+    {
+        "name": "AirDrop",
+        "username": "alina",
+        "pid": 9851,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookUIService",
+        "username": "alina",
+        "pid": 9852,
+        "status": "running"
+    },
+    {
+        "name": "ReportCrash",
+        "username": "alina",
+        "pid": 10699,
+        "status": "running"
+    },
+    {
+        "name": "aslmanager",
+        "username": "root",
+        "pid": 12075,
+        "status": "running"
+    },
+    {
+        "name": "sandboxd",
+        "username": "root",
+        "pid": 12211,
+        "status": "running"
+    },
+    {
+        "name": "PerfPowerService",
+        "username": "root",
+        "pid": 12231,
+        "status": "running"
+    },
+    {
+        "name": "storeuid",
+        "username": "alina",
+        "pid": 12286,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.CloudPhotosConfiguration",
+        "username": "alina",
+        "pid": 12289,
+        "status": "running"
+    },
+    {
+        "name": "iCloudNotificationAgent",
+        "username": "alina",
+        "pid": 12290,
+        "status": "running"
+    },
+    {
+        "name": "progressd",
+        "username": "alina",
+        "pid": 12292,
+        "status": "running"
+    },
+    {
+        "name": "taskgated",
+        "username": "root",
+        "pid": 12328,
+        "status": "running"
+    },
+    {
+        "name": "Obsidian",
+        "username": "alina",
+        "pid": 12662,
+        "status": "running"
+    },
+    {
+        "name": "Obsidian Helper (GPU)",
+        "username": "alina",
+        "pid": 12663,
+        "status": "running"
+    },
+    {
+        "name": "Obsidian Helper",
+        "username": "alina",
+        "pid": 12664,
+        "status": "running"
+    },
+    {
+        "name": "Obsidian Helper (Renderer)",
+        "username": "alina",
+        "pid": 12665,
+        "status": "running"
+    },
+    {
+        "name": "CAReportingServi",
+        "username": "root",
+        "pid": 12751,
+        "status": "running"
+    },
+    {
+        "name": "Microsoft Word",
+        "username": "alina",
+        "pid": 12885,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.appkit.xpc.openAndSavePanelService",
+        "username": "alina",
+        "pid": 12900,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookUIService",
+        "username": "alina",
+        "pid": 12901,
+        "status": "running"
+    },
+    {
+        "name": "Terminal",
+        "username": "alina",
+        "pid": 13063,
+        "status": "running"
+    },
+    {
+        "name": "DataDetectorsSou",
+        "username": "_datadetectors",
+        "pid": 13381,
+        "status": "running"
+    },
+    {
+        "name": "XProtectPluginSe",
+        "username": "root",
+        "pid": 13403,
+        "status": "running"
+    },
+    {
+        "name": "XProtectPluginService",
+        "username": "alina",
+        "pid": 13499,
+        "status": "running"
+    },
+    {
+        "name": "netbiosd",
+        "username": "_netbios",
+        "pid": 13574,
+        "status": "running"
+    },
+    {
+        "name": "Safari",
+        "username": "alina",
+        "pid": 13610,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.WebKit.Networking",
+        "username": "alina",
+        "pid": 13612,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.Safari.SandboxBroker",
+        "username": "alina",
+        "pid": 13613,
+        "status": "running"
+    },
+    {
+        "name": "ImageIOXPCService",
+        "username": "alina",
+        "pid": 13615,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.appkit.xpc.openAndSavePanelService",
+        "username": "alina",
+        "pid": 13616,
+        "status": "running"
+    },
+    {
+        "name": "QuickLookUIService",
+        "username": "alina",
+        "pid": 13617,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.WebKit.GPU",
+        "username": "alina",
+        "pid": 13619,
+        "status": "running"
+    },
+    {
+        "name": "com.apple.WebKit.WebContent",
+        "username": "alina",
+        "pid": 13620,
+        "status": "running"
+    },
+    {
+        "name": "python",
+        "username": "alina",
+        "pid": 13841,
+        "status": "running"
+    },
+    {
+        "name": "python3.11",
+        "username": "alina",
+        "pid": 13842,
+        "status": "running"
+    },
+    {
+        "name": "printtool",
+        "username": "alina",
+        "pid": 14015,
+        "status": "running"
+    },
+    {
+        "name": "CoreServicesUIAgent",
+        "username": "alina",
+        "pid": 14304,
+        "status": "running"
+    },
+    {
+        "name": "XprotectService",
+        "username": "alina",
+        "pid": 14305,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome",
+        "username": "alina",
+        "pid": 14574,
+        "status": "running"
+    },
+    {
+        "name": "chrome_crashpad_handler",
+        "username": "alina",
+        "pid": 14576,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper (GPU)",
+        "username": "alina",
+        "pid": 14580,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper",
+        "username": "alina",
+        "pid": 14581,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper",
+        "username": "alina",
+        "pid": 14583,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper (Renderer)",
+        "username": "alina",
+        "pid": 14627,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper (Renderer)",
+        "username": "alina",
+        "pid": 14628,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper",
+        "username": "alina",
+        "pid": 14634,
+        "status": "running"
+    },
+    {
+        "name": "Google Chrome Helper (Renderer)",
+        "username": "alina",
+        "pid": 14641,
+        "status": "running"
+    },
+    {
+        "name": "login",
+        "username": "alina",
+        "pid": 14928,
+        "status": "running"
+    },
+    {
+        "name": "zsh",
+        "username": "alina",
+        "pid": 14929,
+        "status": "running"
+    },
+    {
+        "name": "ocspd",
+        "username": "root",
+        "pid": 14993,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15011,
+        "status": "running"
+    },
+    {
+        "name": "login",
+        "username": "alina",
+        "pid": 15027,
+        "status": "running"
+    },
+    {
+        "name": "zsh",
+        "username": "alina",
+        "pid": 15028,
+        "status": "running"
+    },
+    {
+        "name": "python3.11",
+        "username": "alina",
+        "pid": 15047,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15048,
+        "status": "running"
+    },
+    {
+        "name": "login",
+        "username": "alina",
+        "pid": 15049,
+        "status": "running"
+    },
+    {
+        "name": "zsh",
+        "username": "alina",
+        "pid": 15050,
+        "status": "running"
+    },
+    {
+        "name": "python3.11",
+        "username": "alina",
+        "pid": 15064,
+        "status": "running"
+    },
+    {
+        "name": "Telegram",
+        "username": "alina",
+        "pid": 15070,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15073,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15074,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15076,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15077,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15078,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15079,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15080,
+        "status": "running"
+    },
+    {
+        "name": "mdworker_shared",
+        "username": "alina",
+        "pid": 15081,
+        "status": "running"
+    }
+]
